@@ -1,0 +1,21 @@
+div.my_list_screen {
+    padding: 32px;
+}
+
+div.my_list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    div.my_list_screen {
+        padding: 32px 8px;
+        width: 100vw;
+    }
+
+    div.my_list {
+        width: 100%;
+    }
+}

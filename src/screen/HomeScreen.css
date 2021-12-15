@@ -1,0 +1,10 @@
+div.content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: calc(2rem - 20px);
+}
+
+div.home_screen {
+    position: relative;
+}
